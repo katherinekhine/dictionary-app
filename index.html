@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dictionary App</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <audio id="sound"></audio>
+    <div class="container">
+        <div class="search-box">
+            <input type="text" placeholder="Type the word here..." id="inp-word">
+            <button id="search-btn">Search</button>
+        </div>
+        <div class="result">
+            <div class="word">
+                <h3>Sample</h3>
+                <button><i class="fas fa-volume-up"></i></button>
+            </div>
+            <div class="details">
+                <p>pos</p>
+                <p>/sample/</p>
+            </div>
+            <p class="word-meaning">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, aperiam.
+            </p>
+            <p class="word-example">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, et.
+            </p>
+        </div>
+    </div>
+
+    <!-- js -->
+    <script src="js/index.js"></script>
+</body>
+
+</html>

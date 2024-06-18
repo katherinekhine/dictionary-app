@@ -1,0 +1,95 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+*:not(i) {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(45deg, #2f216c, #4e216c);
+}
+
+.container {
+    background-color: #fff;
+    width: 90vmin;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    padding: 80px 20px;
+    border-radius: 10px;
+    box-shadow: 0 20px 40px rgba(38, 33, 61, 0.2);
+}
+
+.search-box {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.search-box input {
+    padding: 5px;
+    width: 70%;
+    border: none;
+    outline: none;
+    border-bottom: 3px solid #2f216c;
+    font-size: 16px;
+}
+
+.search-box button {
+    padding: 15px 0;
+    width: 25%;
+    background-color: #2f216c;
+    border: none;
+    outline: none;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.result {
+    position: relative;
+}
+
+.result h3 {
+    font-size: 30px;
+    color: #4e216c;
+}
+
+.result .word {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+
+.result button {
+    background-color: transparent;
+    color: #2f216c;
+    border: none;
+    outline: none;
+    font-style: 18px;
+}
+
+.result .details {
+    display: flex;
+    gap: 10px;
+    color: #b396c6;
+    margin: 5px 0 20px 0;
+    font-size: 14px;
+}
+
+.word-meaning {
+    color: #7f6cd3;
+}
+
+.word-example {
+    color: #7f6cd3;
+    font-style: italic;
+    border-left: 5px solid #7f6cd3;
+    padding-left: 20px;
+    margin-top: 30px;
+}
