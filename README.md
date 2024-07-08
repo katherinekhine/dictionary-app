@@ -30,7 +30,7 @@ You need a modern web browser to run this application.
 
 ## Screenshots
 
-![Screenshot](img/screenshot.png)
+![alt text](img/screenshot.png)
 
 ### Usage
 
